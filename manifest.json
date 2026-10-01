@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Scribd Downloader",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Scribd Tools"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.scribd.com/*"
+  ]
+}
